@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Toyota Camry",
+      "price": 25000,
+      "model": "2023"
+    },
+    {
+      "name": "Honda Accord",
+      "price": 27000,
+      "model": "2023"
+    },
+    {
+      "name": "Ford Mustang",
+      "price": 35000,
+      "model": "2023"
+    },
+    {
+      "name": "Chevrolet Malibu",
+      "price": 28000,
+      "model": "2024"
+    },
+    {
+      "name": "BMW 3 Series",
+      "price": 40000,
+      "model": "2024"
+    },
+    {
+      "name": "Mercedes-Benz C-Class",
+      "price": 42000,
+      "model": "2023"
+    },
+    {
+      "name": "Tesla Model 3",
+      "price": 48000,
+      "model": "2024"
+    },
+    {
+      "name": "Audi A4",
+      "price": 38000,
+      "model": "2023"
+    },
+    {
+      "name": "Nissan Altima",
+      "price": 26000,
+      "model": "2024"
+    },
+    {
+      "name": "Kia Optima",
+      "price": 23000,
+      "model": "2024"
+    }
+  ]
