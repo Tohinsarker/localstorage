@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Botle from '../Bottle/Botle';
 import './Cars.css';
-import { addToLocalStorage } from '../../utilities/localStorage';
+import { addToLocalStorage, getStoredCart } from '../../utilities/localStorage';
 
 const Cars = () => {
     const [data, setData] = useState([]);
@@ -13,7 +13,10 @@ const Cars = () => {
         .then(data =>setData(data))
     },[]);
 
-
+    useEffect(() =>{
+        const storedCart = getStoredCart();
+        console.log('storedcard', storedCart)
+    },[])
     const handleAddToCard = (bottle) =>{
         const newCart = [...cart, bottle];
         setCart(newCart);

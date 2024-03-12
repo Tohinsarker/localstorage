@@ -17,4 +17,4 @@ const addToLocalStorage = id =>{
     saveCartTols(cart)
 
 }
-export {addToLocalStorage}
+export {addToLocalStorage, getStoredCart}
